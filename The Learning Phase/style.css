@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* { /* Completely removes all default margins and padding */
+    margin:0;
+    padding:0;
+}
+
+.h1-Hello {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+
+    line-height: 1.6em;
+}
+
+.clr {
+    clear: both; /* Clears the float */
+}
+
+.container {
+    width: 95%;
+    margin:auto;
+}
+
+.box-1{
+    font-size: 20px;
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    /* Size Color Type */
+    /*border-right: 3px darkcyan solid;*/
+
+    /*Applies same border across all sides */
+    border: 5px darkcyan solid;
+
+    /* These functions update the border size */
+    border-width: 3px; 
+    border-bottom-width: 10px; 
+    border-top-style: solid;
+
+    /* The padding affects the text */
+    /* The margins affect everything including the box */
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    border: 0px darkcyan solid; /* Overrides all border settings */
+    border-bottom: 10px rgb(2, 82, 82) solid;
+}
+
+.box-1 h1 { /*Targets the h1 elements within the box1 class */
+    font-style: oblique;
+    letter-spacing: 0.1em;
+}
+
+.box-2 {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:white;
+    background-color: rgb(56, 56, 56);
+    border: 3px rgb(98, 255, 171) dotted;
+}
+
+.box-2 h1 {
+    padding-bottom: 5px;
+}
+
+.categories {
+    border-radius: 20px;
+    padding: 15px;
+    color:white;
+    background-color: rgb(174, 42, 71);
+    margin-top: 10px;
+    border:5px rgb(255, 32, 73) solid; 
+}
+
+.categories h1 {
+    text-align: center;
+}
+
+.categories ul {
+    padding-top: 10px;
+    padding-left: 30px;
+    list-style: square;
+}
+
+.categories li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px black dotted;
+}
+
+a {
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(0, 255, 251)
+}
+
+.Name-strong {
+    font-size: 25px;
+    color:cyan;
+}
+.p-Lorem {
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.about {
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(56,56,56);
+    padding: 1%;
+    border-left: rgb(0, 175, 169) 5px solid;
+}
+
+.h1-about {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.p-about {
+    font-size: 18px;
+}
+
+body {
+    background-image: url('../Pictures/4751502.png'); 
+}
+
+img {
+    width: 99.59%;
+    height: 50%;
+    border-left: 5px rgb(0, 175, 169) solid;
+}
+
+.riley {
+    margin-top:-6px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style:italic;
+    background-color: rgb(56,56,56);
+    padding: 3%;
+    border-left: rgb(0, 175, 169) 5px solid;
+}
+
+.my-form {
+    padding: 20px;
+    
+}
+
+.my-form .form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-form label {
+    color: white;
+    border-bottom: 1px white solid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    display:block; /* This sets the labels on there own line */
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form .form-group button  {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    background-color: black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.my-form .form-group button:hover {
+    background-color: rgb(0, 175, 169);
+    color: white;
+    cursor:pointer;
+}
+
+.my-form .form-group button:active {
+    background-color: rgb(0, 118, 114);
+    color: white;
+}
+
+.block { /* Creates three blocks of text */
+    float: left;
+    width: 33.3%;
+    border:1px solid red;
+    box-sizing: border-box;
+}
+
+#main-block { /*The hashtag means its a ID */
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box; 
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color:aliceblue;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 50px;
+    position: relative;
+    background-image: url('../Pictures/abs.png');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me-button {
+    padding-top: 5px;
+    padding-left: 15px;
+    display: block;
+    width: 10%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    background-color: black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    position: fixed; /* This makes the position completely still. Scrolling will not move it */
+    top:-5px;
+}
+
+.my-list li:first-child /* Targets the first list item */ {
+    background: red;
+}
+
+.my-list li:last-child /* Targets the last list item */ {
+    background: blue;
+}
+
+.my-list li:nth-child(5) /* Targets the 5th list item */ {
+    background: green; 
+}
+
+.my-list li:nth-child(even) /* Targets the even list items */ {
+    background: yellow;
+}

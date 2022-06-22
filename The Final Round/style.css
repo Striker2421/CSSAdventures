@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(130, 130, 130);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    height: 50px;
+}
+
+#navbar {
+    background-color: darkgray;
+    color:white;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 50px;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#showcase {
+    background-image: url("https://t3.ftcdn.net/jpg/02/73/34/18/360_F_273341817_UZgSGYfFh2PqxQaJ6PfEUFjHMNIBww6G.jpg");
+    background-position: center right;
+    min-height: 300px; /* When the text expands the image will increase in height */
+    margin-bottom: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* This will fill the entire div */
+}
+
+#showcase h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#main {
+    float: left; 
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#siderbar {
+    float: right;
+    width: 30%;
+    background-color: rgb(56, 56, 56);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+    padding-bottom: 17%;
+    bottom: 0%;
+}
+
+@media(max-width: 600px) { /* If the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
+    #main {
+        width: 100%;
+        float: none;
+    }
+    #siderbar {
+        width: 100%;
+        float:none;
+    }
+}
